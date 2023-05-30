@@ -16,7 +16,7 @@ spec:
     spec: 
       containers:
         - name: eureka-server
-          image: jhonattan25/app-microservicios-eureka-server:1.0.0
+          image: jhonattan25/app-microservicios-eureka-server:tagversion
           ports:
           - containerPort: 8070
           env:
